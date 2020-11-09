@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_recent_activity"
+            android:icon="@drawable/recent_activity"
+            android:title="Recent Activity"/>
+
+        <item android:title="INSPECTION DAILY REPORT">
+
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item android:id="@+id/nav_data_entry"
+                        android:icon="@drawable/data_entry"
+                        android:title="Data Entry"/>
+
+                    <item android:id="@+id/nav_daily_report"
+                        android:icon="@drawable/daily_report"
+                        android:title="Daily Report"/>
+
+                </group>
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
