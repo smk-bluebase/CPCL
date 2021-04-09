@@ -13,12 +13,12 @@ $mail->SMTPSecure = 'ssl';
 $mail->Pool = true;
 $mail->SMTPAuth = true; 
 $mail->Mailer = 'smtp';
-$mail->Username = "mohanakrisnan.s@bluebase.in";
-$mail->Password = "aerqwrqr@#3qwrQDFFEq";
+$mail->Username = "";
+$mail->Password = "";
 
-$mail->setFrom("mohanakrisnan.s@bluebase.in", "CPCL");
-$mail->addReplyTo("mohanakrisnan.s@bluebase.in", "CPCL");
-$mail->addAddress("smohanakrishnansmksmk@gmail.com");
+$mail->setFrom("", "CPCL");
+$mail->addReplyTo("", "CPCL");
+$mail->addAddress("");
 
 $mail->isHTML(true);
 $mail->Subject = "Test";
